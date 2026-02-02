@@ -1,0 +1,35 @@
+{
+    "name": "Nexa Userbot",
+    "logo": "https://files.catbox.moe/9ux4mb.jpg",
+    "description": "An first Telegram Userbot with multi Clients for Spamming or Mass.",
+    "keywords": ["pyrogram", "userbot"],
+    "repository": "https://github.com/StarkFRG/NexaSpam",
+  "stack": "container",
+    "env": {
+        "STRING_SESSION1": {
+            "description": "fill with the telethon session string",
+            "required": true
+        },
+        "MONGO_URL": {
+            "description": "Fill there an mongo database from mongodb.com",
+            "required": true,
+            "value": "mongodb+srv://onyxcoders:aH8lNcURcuDmkL7D@cluster0.1ojawuj.mongodb.net/?appName=Cluster0"
+        },
+        "SUDO_USERS": {
+            "description": "don't Change this there /id",
+            "required": true,
+            "value": "8553815122"
+        },
+        "OWNER_ID": {
+            "description": "Fill there your I'd",
+            "required": true,
+            "value": "1118345061"
+        },
+        "BOT_TOKEN": {
+            "description": "fill with your bot token get from @BotFather on telegram",
+            "required": true,
+            "value": ""
+        }
+
+    }
+  }
