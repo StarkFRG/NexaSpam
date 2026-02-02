@@ -2,7 +2,7 @@ flask
 flask_restful
 aiohttp
 aiofiles
-bs4
+beautifulsoup4
 googlesearch-python==1.0.1
 gitpython
 humanize
@@ -15,13 +15,12 @@ pymongo==4.3.2
 python-dotenv
 pymediainfo
 prettytable
-git+https://github.com/Itz-fork/py-trans.git
-git+https://github.com/doraemon890/pyrogram
-reportlab
-svglib
-speedtest-cli==2.1.3
-tgcrypto 
+tgcrypto
 telegraph
 uwuify
 gtts
 gpytranslate
+pyrogram @ git+https://github.com/doraemon890/pyrogram
+py-trans @ git+https://github.com/Itz-fork/py-trans.git
+pytgcalls
+ffmpeg-python
